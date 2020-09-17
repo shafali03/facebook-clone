@@ -14,23 +14,29 @@ function StoryReel() {
       />
       <Story
         image='https://res.cloudinary.com/shafali/image/upload/v1600344870/the-palm-962785_640_o2hibx.jpg'
-        profile='https://res.cloudinary.com/shafali/image/upload/v1600344869/beautiful-1274361_640_t1yghe.jpg
-'
+        profile='https://res.cloudinary.com/shafali/image/upload/v1600344869/beautiful-1274361_640_t1yghe.jpg'
         title='Sophia'
       />
-      <Story
-        image='https://res.cloudinary.com/shafali/image/upload/v1600344869/desert-1654439_640_to6o79.jpg'
-        profile='https://res.cloudinary.com/shafali/image/upload/v1600344869/woman-3083390_640_yia6dm.jpg'
-        title='Emma'
-      />
+
       <Story
         image='https://res.cloudinary.com/shafali/image/upload/v1600344869/adventure-2151437_640_fbyhcw.jpg'
         profile='https://res.cloudinary.com/shafali/image/upload/v1600344869/portrait-3353699_640_d4tecz.jpg'
         title='Tom'
       />
 
+      <Story
+        image='https://res.cloudinary.com/shafali/image/upload/v1600344869/desert-1654439_640_to6o79.jpg'
+        profile='https://res.cloudinary.com/shafali/image/upload/v1600344869/woman-3083390_640_yia6dm.jpg'
+        title='Emma'
+      />
+
+      <Story
+        image='https://res.cloudinary.com/shafali/image/upload/v1600347682/silhouette-1912338_640_1_nzxuyl.jpg'
+        profile='https://res.cloudinary.com/shafali/image/upload/v1600347682/boy-3566903_640_1_u0qjqp.jpg'
+        title='Craig'
+      />
+
     </div>
   )
 }
-
 export default StoryReel
