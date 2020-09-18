@@ -19,8 +19,8 @@ function Feed() {
         username='hasan'
         image='https://res.cloudinary.com/shafali/image/upload/v1600344870/the-palm-962785_640_o2hibx.jpg'
       />
-      <Post />
-      <Post />
+      {/* <Post />
+      <Post /> */}
     </div>
   )
 }
