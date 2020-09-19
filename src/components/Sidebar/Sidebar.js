@@ -8,15 +8,17 @@ import ChatIcon from '@material-ui/icons/Chat'
 import StorefrontIcon from '@material-ui/icons/Storefront'
 import VideoLibraryIcon from '@material-ui/icons/VideoLibrary'
 import { ExpandMoreOutlined } from '@material-ui/icons'
+import { useStateValue } from '../Context/StateProvider'
 
 function Sidebar() {
+  const [{ user }, dispatch] = useStateValue()
+
+
   return (
     <div className='sidebar'>
-
-
       <SidebarRow
-        src='https://res.cloudinary.com/shafali/image/upload/v1600341615/images_1_zqz9a5.jpg'
-        title='Hasan'
+        src={user.photoURL}
+        title={user.displayName}
       />
 
       <SidebarRow
@@ -28,7 +30,6 @@ function Sidebar() {
         Icon={EmojiFlagsIcon}
         title='Pages'
       />
-
 
       <SidebarRow
         Icon={PeopleIcon}
