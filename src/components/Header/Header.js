@@ -20,7 +20,7 @@ function Header() {
   return (
     <div className='header'>
       <div className="header__left">
-        <img src="https://res.cloudinary.com/shafali/image/upload/v1599593844/facebook_uqf8bu.png" alt="facebook-logo" />
+        <img src="https://res.cloudinary.com/shafali/image/upload/v1600440761/1200px-Facebook_Logo__2019_2_nxz8wo.png" alt="facebook-logo" />
       </div>
       <div className='header__input'>
         <SearchIcon />
