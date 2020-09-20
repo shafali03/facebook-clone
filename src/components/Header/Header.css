@@ -76,6 +76,10 @@
   align-items: center;
 }
 
+.header__info h4 {
+  padding-right: 10px;
+}
+
 .header__right {
   display: flex;
 }
