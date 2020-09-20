@@ -10,9 +10,9 @@ function Feed() {
   const [posts, setPosts] = useState([])
   // connection with the database
   useEffect(() => {
-    db.collection('posts')
+    db.collection("posts")
       .orderBy('timestamp', 'desc')
-      .onSnapshot((snapshot) => (
+      .onSnapshot(snapshot => (
         setPosts(snapshot.docs.map(doc => ({ id: doc.id, data: doc.data() })))
       ))
   }, [])
