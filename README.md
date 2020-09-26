@@ -5,6 +5,7 @@
 A Facebook clone using React Hooks for the front end and firebase google sign in for authentication. For the backend used Firebase realtime database.
 As a new user, you will need a Google Gmail account for login. Once you have logged in, you can post messages and images by copying the image address.
 
+<img src='https://res.cloudinary.com/shafali/image/upload/v1601122412/facebook_qgprgi.gif'>
 
 ### Packages installed
 
